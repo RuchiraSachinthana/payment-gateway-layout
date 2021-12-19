@@ -20,31 +20,31 @@
         <h3 class="title">Billing Address</h3>
         <div class="inputBox">
             <span>Full Name:</span>
-            <input type="text" placeholder="Enter your name here">
+            <input type="text" placeholder="Enter your full name here" required>
         </div>
 
         <div class="inputBox">
             <span>Email:</span>
-            <input type="email" placeholder="Enter your email here">
+            <input type="email" placeholder="Enter your email here" required>
         </div>
         <div class="inputBox">
             <span>Address:</span>
-            <input type="text" placeholder="Enter your address here">
+            <input type="text" placeholder="Enter your address here" required>
         </div>
         <div class="inputBox">
             <span>City:</span>
-            <input type="text" placeholder="Enter your city here">
+            <input type="text" placeholder="Enter your city here" required>
         </div>
 
         <div class="flex">
         <div class="inputBox">
             <span>State:</span>
-            <input type="text" placeholder="Enter your state here">
+            <input type="text" placeholder="Enter your state here" required>
         </div>
 
         <div class="inputBox">
             <span>Zip code:</span>
-            <input type="text" placeholder="Enter your zip code here">
+            <input type="text" placeholder="Enter zip code " required>
         </div>
         </div>
 
@@ -55,40 +55,35 @@
 
     <div class="inputBox">
                     <span>Cards accepted :</span>
-                    <img src="img/card_img.png" alt="">
+                    <img src="img/card_img.png" alt="" >
                 </div>
                 <div class="inputBox">
                     <span>Name on card :</span>
-                    <input type="text" placeholder="Mr. Kamal Perera">
+                    <input type="text" placeholder="Mr. Kamal Perera" required>
                 </div>
                 <div class="inputBox">
                     <span>Credit card number :</span>
-                    <input type="number" placeholder="1001-2202-3033-4440">
+                    <input type="number" placeholder="1001-2202-3033-4440" required>
                 </div>
                 <div class="inputBox">
                     <span>Exp month :</span>
-                    <input type="text" placeholder="January">
+                    <input type="text" placeholder="January" required>
                 </div>
 
                 <div class="flex">
                     <div class="inputBox">
                         <span>Exp year :</span>
-                        <input type="number" placeholder="2025">
+                        <input type="number" placeholder="2025" required>
                     </div>
                     <div class="inputBox">
                         <span>CVV :</span>
-                        <input type="text" placeholder="123">
+                        <input type="text" placeholder="123" required>
                     </div>
                 </div>
 
             </div>
 
 </div>
-
-
-
-
-
 
 <input type="submit" value="proceed to checkout" class="submit-btn">
 

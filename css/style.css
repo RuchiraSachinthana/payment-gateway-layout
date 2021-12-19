@@ -88,12 +88,12 @@ div.container form .row .col .inputBox{
     width: 100%;
     padding:12px;
     font-size: 17px;
-    background: #27ae60;
+    background: #2746ae;
     color:#fff;
     margin-top: 5px;
     cursor: pointer;
   }
   
   div.container form .submit-btn:hover{
-    background: #2ecc71;
+    background: #545eeb;
   }
