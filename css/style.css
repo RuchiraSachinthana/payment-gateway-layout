@@ -19,7 +19,8 @@ div.container {
     align-items: center;
     padding: 25px;
     min-height: 100vh;
-    background: linear-gradient(90deg, #2e6dcc 60%, #2740ae 40.1%);
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
 
 }
 
