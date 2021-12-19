@@ -10,7 +10,7 @@
     <title>Payment Gateway</title>
 </head>
 <body>
-    
+
 <div class="container">
 
 <form action="" method="post">
@@ -49,9 +49,48 @@
         </div>
 
     </div>
+
+<div class="col">
+    <h3 class="title">Payment</h3>
+
+    <div class="inputBox">
+                    <span>Cards accepted :</span>
+                    <img src="img/card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>Name on card :</span>
+                    <input type="text" placeholder="Mr. Kamal Perera">
+                </div>
+                <div class="inputBox">
+                    <span>Credit card number :</span>
+                    <input type="number" placeholder="1001-2202-3033-4440">
+                </div>
+                <div class="inputBox">
+                    <span>Exp month :</span>
+                    <input type="text" placeholder="January">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Exp year :</span>
+                        <input type="number" placeholder="2025">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" placeholder="123">
+                    </div>
+                </div>
+
+            </div>
+
 </div>
 
 
+
+
+
+
+<input type="submit" value="proceed to checkout" class="submit-btn">
 
 </form>
 
