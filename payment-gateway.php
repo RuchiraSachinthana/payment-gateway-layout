@@ -11,6 +11,54 @@
 </head>
 <body>
     
+<div class="container">
+
+<form action="" method="post">
+
+<div class="row">
+    <div class="col">
+        <h3 class="title">Billing Address</h3>
+        <div class="inputBox">
+            <span>Full Name:</span>
+            <input type="text" placeholder="Enter your name here">
+        </div>
+
+        <div class="inputBox">
+            <span>Email:</span>
+            <input type="email" placeholder="Enter your email here">
+        </div>
+        <div class="inputBox">
+            <span>Address:</span>
+            <input type="text" placeholder="Enter your address here">
+        </div>
+        <div class="inputBox">
+            <span>City:</span>
+            <input type="text" placeholder="Enter your city here">
+        </div>
+
+        <div class="flex">
+        <div class="inputBox">
+            <span>State:</span>
+            <input type="text" placeholder="Enter your state here">
+        </div>
+
+        <div class="inputBox">
+            <span>Zip code:</span>
+            <input type="text" placeholder="Enter your zip code here">
+        </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+</form>
+
+
+
+
+</div>
 
 
 
