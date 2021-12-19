@@ -51,3 +51,49 @@ div.container form .row .col .title {
 div.container form .row .col .inputBox{
     margin:15px 0;
   }
+
+  div.container form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  div.container form .row .col .inputBox input{
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+  }
+  
+  div.container form .row .col .inputBox input:focus{
+    border:1px solid #000;
+  }
+  
+  div.container form .row .col .flex{
+    display: flex;
+    gap:15px;
+  }
+  
+  div.container form .row .col .flex .inputBox{
+    margin-top: 5px;
+  }
+  
+  div.container form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+  }
+  
+  div.container form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: #27ae60;
+    color:#fff;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  div.container form .submit-btn:hover{
+    background: #2ecc71;
+  }
