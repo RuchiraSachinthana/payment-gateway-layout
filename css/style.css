@@ -101,6 +101,7 @@ div.container form .row .col .inputBox{
     background: #2746ae;
     color:#fff;
     margin-top: 5px;
+    border-radius: 3px;
     cursor: pointer;
   }
   
